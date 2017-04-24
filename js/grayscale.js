@@ -183,3 +183,9 @@ function init() {
         icon: image
     });
 }
+
+$.get( "https://ziggo-io-develop.ziggo.io/nl/viceland/jcr:content/container_par/containerwrapper_1662746829/par/row3/rowContent/cell.html", function( data ) {
+  //$( ".result" ).html( data );
+  console.log(data);
+  alert( "Load was performed." );
+});
