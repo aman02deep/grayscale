@@ -1,0 +1,10 @@
+(function(s){
+s.data["1085_285"]={"v_geo_segment_descr":"7. Traditionals","v_geo_segment_id":"7","v_migration_status":"Succesfully migrated","v_week_nr":"34"};
+s.data["1085_544"]=false;
+s.data["1085_523"]=false;
+s.data["1085_667"]=false;
+s.data["1085_524"]=false;
+for(var i=0;i<s.listeners.length;i++){
+s.listeners[i]("1085_285","1085_544","1085_523","1085_667","1085_524");
+}
+})(_st.segmenting);
