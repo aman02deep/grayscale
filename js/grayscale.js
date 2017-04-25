@@ -185,6 +185,6 @@ function init() {
 }
 
 var host_url = "https://ziggo-io-develop.ziggo.io";
-$.get( host_url+"/nl/viceland/jcr:content/container_par/containerwrapper_1662746829/par/row3.html?asdfgh", function( data ) {
+$.get( host_url+"/resources/snippets/content-share-test/jcr:content/par/pagesection/par/row3.html?asdfgh", function( data ) {
   $( ".result" ).html( data.replace(/\/content\/dam/g, host_url+"/content/dam"));
 });

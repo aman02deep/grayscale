@@ -567,5 +567,11 @@
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
+<script type="text/javascript">
+    var host_url = "https://ziggo-io-develop.ziggo.io";
+$.get( host_url+"/resources/snippets/content-share-test/jcr:content/par/pagesection/par/row3.html?"+Math.random(), function( data ) {
+  $( ".result" ).html( data.replace(/\/content\/dam/g, host_url+"/content/dam"));
+});
+</script>
 
 </html>
